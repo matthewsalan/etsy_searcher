@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class EtsySearchControllerControllerTest < ActionController::TestCase
+class EtsyControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end
