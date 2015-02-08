@@ -13,3 +13,194 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-color: #f5f5f1
+}
+header {
+	background-color: white;
+	max-width: 100%;
+	height: 80px;
+	-moz-box-shadow: 2px 2px 2px #d9d9d5;
+	-webkit-box-shadow: 2px 2px 2px #d9d9d5;
+	box-shadow: 2px 2px 2px #d9d9d5;
+}
+
+a.href {
+	padding-top: 6px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header .sectionright {
+	float: right;
+	padding-right: 200px;
+	margin-top: 20px;
+}
+
+header ul li .help {
+	float: left;
+}
+
+.sectionright ul li {
+	display: inline-block;
+	font-family: Arial;
+}
+
+.sectionright ul {
+	margin-top: 0px;
+	float: right;
+}
+
+.sectionleft img {
+	padding-top: 6px;
+}
+
+.sectionright {
+	padding-top: 13px;
+}
+
+.maincontent {
+	/*width: 940px;*/
+	text-align: right;
+	font-family: Arial;
+	/*width: 728px;*/
+	height: 4103px;
+	text-align: right;
+	padding-left: -200px;
+}
+
+.sectionleft .input-form {
+	float: left;
+	display: inline-block;
+	margin: 25px;
+}
+
+.sectionleft a {
+	float: left;
+	display: block;
+	margin-top: 20px;	
+	padding-left: 200px;
+}
+ .side-bar-nav {
+ 	z-index: 99;
+ 	background-color: #fff;
+ 	width: 224px;
+ 	height: 2000px;
+ 	padding: 14px 14px 14px 14px;
+ 	text-align: left;
+ 	margin-left: 10%;
+ 	margin-top: 40px;
+ 	padding-bottom: 50px;
+ 	display: inline-block;
+ 	float: left;
+ }
+
+ .search-refine {
+ 	background-color: #fff;
+ 	width: 224px;
+ 	height: 500px;
+ 	padding: 14px 14px 14px 14px;
+ 	text-align: left;
+ 	margin-left: 200px;
+ 	margin-top: 50px;
+ 	padding-bottom: 50px;
+ }
+
+.categories {
+ 	list-style: none; 
+ 	line-height: 30px;
+ 	font-family: Arial;
+ }
+
+ a:link {
+ 	text-decoration: none;
+ }
+
+
+.footer {
+	background-color: #f5f5f1;
+	margin-top: 500px;
+	font-family: Arial;
+	padding-bottom: 200px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.input-search {
+	height: 34px;
+	width: 260px;
+	border-radius: 4px;
+	border: 1px solid;
+	font-family: Arial;
+	font-size: 14px;
+	background-color: #fbfbfa;
+}
+
+.search-button {
+	height: 34px;
+	width: 83px;
+	font-family: Arial;
+	background: #3f99b8;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.browse-button {
+	height: 34px;
+	width: 83px;
+	font-family: Arial;
+	font-size: 14px;
+	color: black;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+.listings {
+  width: 60%;
+  margin-left: 410px;
+  margin-top: 75px;
+}
+
+.listing-box {
+	margin: 15px;
+}
+
+.browse-button {
+	margin-left: 15px;
+}
+
+.results-box {
+	background: #fff;
+	display: inline-block;
+	margin: 15px;
+	float: left;
+  z-index: 99;
+  padding: 10px;
+}
+
+.shop-name {
+	float: left;
+	font-size: 12px;
+	font-family: Arial;
+	color: #b7b2b2;
+}
+
+.price {
+	float: right;
+	font-size: 12px;
+	font-family: Arial;
+	color: #78c042;
+}
+
+.item-title {
+	font-family: Arial;
+	color: #666;
+	font-size: 12px;
+	float: left;
+	display: block;
+}
+

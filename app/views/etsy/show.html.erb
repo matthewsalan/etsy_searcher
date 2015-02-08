@@ -1,0 +1,78 @@
+<header>
+  <p class="one"></p>
+  <p class="two"></p>
+    <nav>
+      <div class='sectionleft'>
+        <a href="#"><img src="https://www.etsy.com/assets/dist/images/etsylogo.20150106184300.png"></a>
+        <div class="input-form">
+          <form>
+            <input type="text" class="input-search" placeholder="Search for items or shops">
+            <button class='search-button'>Search</button> 
+            <button class='browse-button'>Browse</button>
+          </form>
+        </div>
+      </div>
+      <div class='sectionright'>
+        <ul>
+          <li class="help"><a href="#">Help</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>
+        
+      </div>
+    </nav>
+</header>
+<body>
+  <div class="maincontent">
+    <div class="side-bar-nav">
+        <p>Categories</p>
+        <ul class="categories">
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Paper Goods & Party Supplies</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Jewlery</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Bath & Beauty</a></li>
+          <li><a href="#">Bags & Purses</a></li>
+          <li><a href="#">Toys & Games</a></li>
+          <li><a href="#">Books, Movies & Music</a></li>
+          <li><a href="#">Pet Supplies</a></li>
+          <li><a href="#">Electronics & Accessories</a></li>
+        </ul>
+      </div>
+    <div class="listings">
+      <% @results.each do |x| %>
+      <div class="results-box">
+        <%= image_tag x["Images"][0]['url_170x135'], size: "214x170" %>
+        <div class="listing-details">
+          <div class="item-title">
+            <%= x['title'][0, 32] %>
+          </div>
+          <div class="">
+            <div class="shop-name"><%= "#{x['Shop']['shop_name']}" %>   
+            </div>
+            <div class="price"><%= "$#{x['price']} USD" %>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+  
+<footer>
+  <div class="footer">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+</footer>
+</body>
+
