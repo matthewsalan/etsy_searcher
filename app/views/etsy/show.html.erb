@@ -60,13 +60,16 @@
     <div class="listings">
       <% @results.each do |x| %>
       <div class="results-box">
-        <%= image_tag x["Images"][0]['url_170x135'], size: "214x170" %>
+        <%= link_to x['url'] do %>
+          <%= image_tag x["Images"][0]['url_170x135'], size: "214x170" %>
+        <% end %>
         <div class="listing-details">
           <div class="item-title">
             <%= x['title'][0, 32] %>
           </div>
           <div class="">
-            <div class="shop-name"><%= "#{x['Shop']['shop_name']}" %>   
+            <div class="shop-name">
+              <%= "#{x['Shop']['shop_name']}" %>     
             </div>
             <div class="price"><%= "$#{x['price']} USD" %>
             </div>
