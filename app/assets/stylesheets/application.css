@@ -67,7 +67,7 @@ header ul li .help {
 	text-align: right;
 	font-family: Arial;
 	/*width: 728px;*/
-	height: 4103px;
+	height: auto;
 	text-align: right;
 	padding-left: -200px;
 }
@@ -88,24 +88,28 @@ header ul li .help {
  	z-index: 99;
  	background-color: #fff;
  	width: 224px;
- 	height: 2000px;
+ 	height: 500px;
  	padding: 14px 14px 14px 14px;
  	text-align: left;
  	margin-left: 10%;
- 	margin-top: 40px;
- 	padding-bottom: 50px;
+ 	margin-top: 15px;
+ 	padding-bottom: 80px;
  	display: inline-block;
  	float: left;
+ }
+
+ .search-text {
+ 	padding-bottom: 15px;
+ 	padding-top: 55px;
  }
 
  .search-refine {
  	background-color: #fff;
  	width: 224px;
- 	height: 500px;
+ 	height: 637px;
  	padding: 14px 14px 14px 14px;
  	text-align: left;
- 	margin-left: 200px;
- 	margin-top: 50px;
+ 	margin-left: -15px;
  	padding-bottom: 50px;
  }
 
@@ -127,6 +131,7 @@ header ul li .help {
 	padding-bottom: 200px;
 	margin-right: 200px;
 	margin-left: 200px;
+	display: inline-block;
 }
 
 .input-search {
