@@ -1,6 +1,6 @@
 == README
 
-App for class project at The Iron Yard.  Uses the Etsy API gem to search and return results from Etsy, those results return a vieww to match the look of the acutal Etsy site.
+App for class project at The Iron Yard.  Uses the Etsy API gem to search and return results from Etsy, those results return a view to match the look of the acutal Etsy site.
 
 * Rails 4.2.0
 
